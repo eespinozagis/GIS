@@ -16,7 +16,7 @@ function initMap() {
     center: {lat: -12.397, lng: -76.644},
     zoom: 12
   });
-  map.data.loadGeoJson('D:\EESPINOZA\Proyecto\QGIS\JSON\Zonas_LIMA.gjson');
+  map.data.loadGeoJson('https://raw.githubusercontent.com/eespinozagis/GIS/master/Zonas_LIMA.geojson');
   
 }
 
